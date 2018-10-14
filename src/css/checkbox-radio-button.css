@@ -68,6 +68,27 @@
 	width: 20px;
 }
 
+.checkbox-radio-button-wrapper--svg-inline input + label::after {
+	border: 0;
+	height: 20px;
+	left: 10px;
+	top: 10px;
+	transform: rotate(0);
+	width: 20px;
+}
+
+.checkbox-radio-button-wrapper--svg-inline input + label svg {
+	border: 0;
+	color: #2516c7;
+	height: 20px;
+	left: 10px;
+	opacity: 0;
+	position: absolute;
+	top: 10px;
+	transition: opacity 0.2s ease-in-out;
+	width: 20px;
+}
+
 .checkbox-radio-button-wrapper--radio-button input + label::after {
 	border: 10px solid;
 	border-radius: 50%;
@@ -78,6 +99,7 @@
 	width: 0;
 }
 
-.checkbox-radio-button-wrapper--styled input:checked + label::after {
+.checkbox-radio-button-wrapper--styled input:checked + label::after,
+.checkbox-radio-button-wrapper--styled input:checked + label svg {
 	opacity: 1;
 }
