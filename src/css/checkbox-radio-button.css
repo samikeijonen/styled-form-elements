@@ -38,6 +38,7 @@
 
 .checkbox-radio-button-wrapper--styled input:focus + label::before {
 	box-shadow: 0 0 0 3px #ffbf47;
+	outline: 3px solid transparent; /* For Windows high contrast mode. */
 }
 
 .checkbox-radio-button-wrapper--styled input + label::after {
