@@ -1,0 +1,13 @@
+name:        Custom and accessible form elements
+title:       Custom and accessible form elements
+description: Engineering best practices used by 10up.
+author:
+  name:    Sami Keijonen
+  email:   sales@10up.com
+  github:  samikeijonen
+  twitter: samikeijonen
+
+markdown:    kramdown
+permalink:   pretty
+highlighter: rouge
+encoding:    utf-8
